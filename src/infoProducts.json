@@ -1,0 +1,290 @@
+[
+    {
+        "section": "aguardiente",
+        "id": 101,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/aguardiente-amarillo.png?alt=media&token=ed91b204-952a-4ce7-84c0-82e19ee7de82",
+        "title": "Amarillo",
+        "volume": 750
+    },
+    {
+        "section": "aguardiente",
+        "id": 102,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/aguardiente-antioque%C3%B1o.png?alt=media&token=b68f5eaf-7339-4e30-808e-83e6be51321e",
+        "title": "Antioqueño",
+        "volume": 375
+    },
+    {
+        "section": "aguardiente",
+        "id": 103,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/aguardiente-llanero.png?alt=media&token=e87ae8d3-8fa4-46d9-b867-4534f83604bb",
+        "title": "Llanero",
+        "volume": 750
+    },
+    {
+        "section": "aguardiente",
+        "id": 104,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/aguardiente-nectar.png?alt=media&token=8f109f49-8e75-492c-ba88-35694eec4663",
+        "title": "Nectar",
+        "volume": 750
+    },
+    {
+        "section": "aguardiente",
+        "id": 105,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/aguardiente-nectar-m.png?alt=media&token=a436061e-8a04-455e-9d56-433e9517cf2b",
+        "title": "Nectar Media",
+        "volume": 375
+    },
+    {
+        "section": "aguardiente",
+        "id": 106,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/aguardiente-tapaRoja.png?alt=media&token=e14d05fa-002f-4afd-8aa8-edb5a5af9a96",
+        "title": "Tapa Roja",
+        "volume": 1500
+    },
+    {
+        "section": "vino",
+        "id": 201,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vino-cari%C3%B1oso.png?alt=media&token=d3417cab-4c34-4406-97e3-6cc2e0af0d95",
+        "title": "Cariñoso",
+        "volume": 750
+    },
+    {
+        "section": "vino",
+        "id": 202,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vino-casillero-del-diablo.png?alt=media&token=398dcc9a-e9ab-4697-90b8-77133c09e34d",
+        "title": "Casillero del Diablo",
+        "volume": 750
+    },
+    {
+        "section": "vino",
+        "id": 203,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vino-frontera.png?alt=media&token=7f25584e-c99e-43df-b3c8-8fa74f36627c",
+        "title": "Frontera",
+        "volume": 750
+    },
+    {
+        "section": "vino",
+        "id": 204,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vino-moscato.png?alt=media&token=d675441e-7c92-43b1-9502-30b637306182",
+        "title": "Moscato Passito",
+        "volume": 1000
+    },
+    {
+        "section": "vino",
+        "id": 205,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vino-sanson.png?alt=media&token=97bd110b-73a1-47c7-89cf-9dbafb6089c8",
+        "title": "Sanson",
+        "volume": 750
+    },
+    {
+        "section": "vino",
+        "id": 206,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vino-tanino.png?alt=media&token=9964ba50-0ef2-4b10-a68b-9db262bc7983",
+        "title": "Tanino Español",
+        "volume": 750
+    },
+    {
+        "section": "ron",
+        "id": 301,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/ron-bacardi.png?alt=media&token=1d243e89-6698-46e4-bec5-5fb7189c4d31",
+        "title": "Bacardí",
+        "volume": 750
+    },
+    {
+        "section": "ron",
+        "id": 302,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/ron-caldas.png?alt=media&token=c39ada40-4513-4e5d-8a7b-8fa0efa91f16",
+        "title": "Viejo de Caldas",
+        "volume": 750
+    },
+    {
+        "section": "ron",
+        "id": 303,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/ron-havana.png?alt=media&token=753d4042-8860-49f3-aab9-171bed9db0cd",
+        "title": "Havana Club",
+        "volume": 750
+    },
+    {
+        "section": "ron",
+        "id": 304,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/ron-santafe.png?alt=media&token=52e20ed4-097c-4759-bd17-66e0bd2e01e0",
+        "title": "Santa Fe",
+        "volume": 1000
+    },
+    {
+        "section": "ron",
+        "id": 305,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/ron-zacapa.png?alt=media&token=dd8c5d72-81e9-4d96-a00b-28026ec6f7ad",
+        "title": "Zapaca",
+        "volume": 750
+    },
+    {
+        "section": "ron",
+        "id": 306,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/ron-medellin.png?alt=media&token=633ec808-ec99-45da-9a6c-1599a9b2c783",
+        "title": "Medellin",
+        "volume": 750
+    },
+    {
+        "section": "vodka",
+        "id": 401,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vodka-absolut.png?alt=media&token=aa5c1675-3893-43c9-b2e3-6fa0155cc310",
+        "title": "Absolut",
+        "volume": 1000
+    },
+    {
+        "section": "vodka",
+        "id": 402,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vodka-ciroc.png?alt=media&token=2e826819-be2b-4bd3-a23c-e605a15350d8",
+        "title": "Ciroc",
+        "volume": 750
+    },
+    {
+        "section": "vodka",
+        "id": 403,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vodka-grey-goose.png?alt=media&token=88c3266c-135d-49bc-ba23-57545a002107",
+        "title": "Grey Goose",
+        "volume": 700
+    },
+    {
+        "section": "vodka",
+        "id": 404,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vodka-smirnoff.png?alt=media&token=c4962b8f-fce3-4bcc-962a-025dbb94bb0a",
+        "title": "Smirnof",
+        "volume": 750
+    },
+    {
+        "section": "vodka",
+        "id": 405,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vodka-tropkaya.png?alt=media&token=61cf9249-821c-44dd-895a-0412116e7875",
+        "title": "Tropkaya",
+        "volume": 750
+    },
+    {
+        "section": "vodka",
+        "id": 406,
+        "price": 123456,
+        "poster": "",
+        "title": "",
+        "volume": 700
+    },
+    {
+        "section": "wisky",
+        "id": 501,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/wisky-black-y-white.png?alt=media&token=bc96faee-f77a-43c1-a941-14568501dda9",
+        "title": "Black & White",
+        "volume": 700
+    },
+    {
+        "section": "wisky",
+        "id": 502,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/wisky-buchanan's.png?alt=media&token=da305f7b-dd70-4c61-b940-1d631b98d7eb",
+        "title": "Buchanan's",
+        "volume": 750
+    },
+    {
+        "section": "wisky",
+        "id": 503,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/wisky-jack-daniel's.png?alt=media&token=c73dea85-b5b6-4179-b263-9b4af71e46e2",
+        "title": "Jack Daniel's",
+        "volume": 1000
+    },
+    {
+        "section": "wisky",
+        "id": 504,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/wisky-oldParr.png?alt=media&token=eb8ee8a2-e554-4e9f-ac5c-70573dbc76c2",
+        "title": "Old Parr",
+        "volume": 750
+    },
+    {
+        "section": "wisky",
+        "id": 505,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/wisky-red-label.png?alt=media&token=b6d415ec-71a8-4c0e-b986-bbc696ab0d06",
+        "title": "Red Label",
+        "volume": 1000
+    },
+    {
+        "section": "wisky",
+        "id": 506,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/wisky-something-special.png?alt=media&token=349b20e2-10f8-491d-afa3-cc0a6103e569",
+        "title": "Something Special",
+        "volume": 750
+    },
+    {
+        "section": "sin alcohol",
+        "id": 601,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/sin-agua-cristal.png?alt=media&token=cfe05940-38fb-49f2-abbd-400de556edcc",
+        "title": "Agua Cristal",
+        "volume": 600
+    },
+    {
+        "section": "sin alcohol",
+        "id": 602,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/sin-manantial.png?alt=media&token=b7755010-279f-4c3b-8c46-6feaeea3a547",
+        "title": "Agua Manantial",
+        "volume": 600
+    },
+    {
+        "section": "sin alcohol",
+        "id": 603,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/sin-gatorade.png?alt=media&token=497384ce-1dc8-4728-95ef-e2e02f6444ce",
+        "title": "Gatorade",
+        "volume": 750
+    },
+    {
+        "section": "sin alcohol",
+        "id": 604,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/sin-monster.png?alt=media&token=eb487d79-d62a-434a-8f80-4f43c532589d",
+        "title": "Monster",
+        "volume": 473
+    },
+    {
+        "section": "sin alcohol",
+        "id": 605,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/sin-powerade.png?alt=media&token=61336b46-f3ab-45fc-8917-06a0bcc81eee",
+        "title": "Powerade",
+        "volume": 500
+    },
+    {
+        "section": "sin alcohol",
+        "id": 606,
+        "price": 123456,
+        "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/sin-red-bull.png?alt=media&token=cdf5c176-94d6-49ce-8f6c-5d6637616321",
+        "title": "Red Bull",
+        "volume": 355
+    }
+]
