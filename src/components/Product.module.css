@@ -1,4 +1,5 @@
 .cardsGrid{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, 150px);
     justify-content: center;

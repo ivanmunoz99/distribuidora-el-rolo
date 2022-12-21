@@ -1,0 +1,24 @@
+.footer{
+    width: 100%;
+    height: 5vh;
+    background: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.instagram{
+    width: auto;
+    height: 15px;
+}
+.nequi{
+    width: auto;
+    height: 15px;
+}
+.davi{
+    width: auto;
+    height: 15px;
+}
+p{
+    font-size: 11px;
+}
