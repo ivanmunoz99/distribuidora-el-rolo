@@ -1,24 +1,24 @@
 
 import './App.css';
-import { ButtonScroll } from './components/Buttons';
-import { CartShop } from './components/CarShop';
-import Footer from './components/footer';
-import Header from './components/Header';
-import { Home } from './components/Home';
-import { Product } from './components/Product';
+import { Routes, Route } from 'react-router-dom';
+import Cart from './pages/Cart';
+import Products from './pages/products';
+import NoFound  from './pages/NoFound';
+import Layout from './pages/Layout';
+import Main from './pages/Main';
 
 function App() {
 
-
-
   return (
-    <div className="App">
-      {/* <Home /> */}
-      <Header />
-      <ButtonScroll />
-      <Product />
-      <CartShop />
-      <Footer />
+    <div >
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route path='products' element={<Products />} />
+          <Route path='cart' element={<Cart />} />
+          <Route path='*' element={<NoFound />} />
+          <Route path='/' element={<Main />} />
+        </Route>
+      </Routes>
     </div>
   );
 }

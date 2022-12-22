@@ -2,7 +2,7 @@ import React from "react"
 
 import styleHome from "./Home.module.css"
 
-export function Home (){
+const Home = () => {
 
     
 
@@ -24,3 +24,5 @@ export function Home (){
         </>
     )
 }
+
+export default Home;
