@@ -14,11 +14,11 @@ function App() {
   return (
     <div className="App">
       {/* <Home /> */}
-      {/* <Header /> */}
-      {/* <ButtonScroll />
-      <Product /> */}
-      {/* <CartShop />
-      <Footer /> */}
+      <Header />
+      <ButtonScroll />
+      <Product />
+      <CartShop />
+      <Footer />
     </div>
   );
 }
