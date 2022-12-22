@@ -1,11 +1,11 @@
 import styleButtons from "./Buttons.module.css"
+import React from "react"
+import { useState } from "react"
+
 
 export function ButtonScroll (){
-
-
     return(
         <div className={styleButtons.sections}>
-            <p></p>
             <button>Aguardiente</button>
             <button>Vinos</button>
             <button>Ron</button>
@@ -13,5 +13,17 @@ export function ButtonScroll (){
             <button>Wisky</button>
             <button>Sin Alcohol</button>
         </div>
+    )
+}
+
+export function ButtonOperation(){
+
+    const [count, setCount] = useState(0)
+    console.log(count)
+    return(
+        <>
+            <button onClick={() => setCount(count - 1)}>-</button>
+            <button onClick={() => setCount(count + 1)}>+</button>
+        </>
     )
 }

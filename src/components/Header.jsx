@@ -1,6 +1,8 @@
+import React from "react"
 import styleHeader from "./Header.module.css"
 
 const Header = () =>{
+    
     return (
         <div className={styleHeader.header}>
             <img className={styleHeader.logo} src="https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/logo.png?alt=media&token=7ea1211f-5ff4-4062-820f-c1fd72fa814a" alt="Logo distribuidora el rolo" />

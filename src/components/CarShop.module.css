@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.product{
+    width: 245px;
+    height: 392px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin: auto;
+    margin-bottom: 20%;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+}
+
+.details button{
+    width: 20px;
+    height: auto;
+}
+
+.count{
+    display: flex;
+    justify-content: space-around;
+    width: 70px;
+    height: 20px;
+}
+
+.img{
+    text-align: center;
+}
+
+hr {
+    width: 195px;
+    margin-left: 10%;
+}
+
+.finish{
+    width: 245px;
+    height: 300px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin: auto;
+    margin-bottom: 20%;
+    text-align: center;
+}
+
+.total{
+    background-color: #F2A341;
+    text-align: center;
+}
+
+.finish button{
+    width: 205px;
+    height: 38px;
+    text-decoration-line: underline;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.product p{
+    font-weight: 400;
+    font-size: 13px;
+}
+.finish p{
+    font-weight: 400;
+    font-size: 13px;
+}

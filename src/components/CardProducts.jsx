@@ -4,6 +4,7 @@ export function CardProducts({ info, allProducts, setallProducts }) {
     
     const addProduct = info => {
         
+
         setallProducts([...allProducts, info])
         console.log(allProducts);
     };

@@ -1,0 +1,57 @@
+
+.container{
+    width: 80vw;
+    height: 499px;
+    background-color: #F2F2F2;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.welcome{
+    background-color: #F28D35;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.container .logo{
+    width: 200px;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.container .text{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5%;
+}
+
+.textColor{
+    color: #F28D35;
+}
+
+.container button{
+    width: 149px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10%;
+}
+
+.container .img{
+    width: 200px;
+    text-align: center;
+    
+}
+.warning {
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+.warning img{
+    width: 100px;
+    height: auto;
+    margin-top: 5%;
+}
