@@ -1,0 +1,35 @@
+.sections{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 250px;
+    height: 45px;
+    /* background-color: #7041f283; */
+    overflow-x: auto;
+    margin-top: 15%;
+    margin: auto;
+    overflow-y: hidden;
+}
+.sections::-webkit-scrollbar{
+    height: 5px;
+    width: 5px;
+}
+.sections::-webkit-scrollbar-thumb{
+    background-color: #f2a24181;
+    border-radius: 5px;
+}
+.sections::-webkit-scrollbar-thumb:hover{
+    background-color: #f2a241a9;
+}
+.sections button{
+    border-radius: 3px;
+    background: #F2A341;
+    min-width: 75px;
+    height: 30px;
+    font-size: 13px;
+    padding: 0;
+    margin-top: 0;
+}
+.sections button:hover{
+    background: #f08d14;
+}

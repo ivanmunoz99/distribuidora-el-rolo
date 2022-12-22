@@ -1,6 +1,13 @@
 import styleCard from "./CardProducts.module.css"
 
-export function CardProducts({ info }) {
+export function CardProducts({ info, allProducts, setallProducts }) {
+    
+    const addProduct = info => {
+        
+        setallProducts([...allProducts, info])
+        console.log(allProducts);
+    };
+
     return (
         
         <li className={styleCard.cards}>
@@ -16,6 +23,7 @@ export function CardProducts({ info }) {
                 {info.title}
                 <div className={styleCard.fontLight}>x{info.volume}ml</div>
                 <div className={styleCard.fontBold}>${info.price}</div>
+                <button onClick={()=> addProduct(info)}><strong>Agregar +</strong></button>
             </div>
         </li>
     )
