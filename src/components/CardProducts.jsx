@@ -1,28 +1,25 @@
 import styleCard from "./CardProducts.module.css"
 
-export function CardProducts({ info, allProducts, setallProducts }) {
-
-    const addProduct = info => {
-        setallProducts([...allProducts, info])
-        console.log(allProducts);
-    };
+export function CardProducts({ info,  handleClick }) {
 
     return (
-        <li className={styleCard.cards}>
-            <div>
+        <>
+            <li className={styleCard.cards}>
                 <div>
-                    <img
-                        width={150}
-                        height={160}
-                        className={styleCard.image}
-                        src={info.poster}
-                        alt={info.title} />
+                    <div>
+                        <img
+                            width={150}
+                            height={160}
+                            className={styleCard.image}
+                            src={info.poster}
+                            alt={info.title} />
+                    </div>
+                    {info.title}
+                    <div className={styleCard.fontLight}>x{info.volume}ml</div>
+                    <div className={styleCard.fontBold}>${info.price}</div>
+                    <button onClick={() => handleClick(info)}><strong>Agregar +</strong></button>
                 </div>
-                {info.title}
-                <div className={styleCard.fontLight}>x{info.volume}ml</div>
-                <div className={styleCard.fontBold}>${info.price}</div>
-                <button onClick={() => addProduct(info)}><strong>Agregar +</strong></button>
-            </div>
-        </li>
+            </li>
+        </>
     )
 }

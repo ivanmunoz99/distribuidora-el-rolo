@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const Products =() =>{
     const [category, setcategory] = useState("aguardiente")
-    console.log(category)
+    // console.log(category)
     return(
         <div>
             <Header />
