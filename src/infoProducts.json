@@ -48,7 +48,7 @@
         "volume": 1500
     },
     {
-        "section": "vino",
+        "section": "vinos",
         "id": 201,
         "price": 123456,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vino-cari%C3%B1oso.png?alt=media&token=d3417cab-4c34-4406-97e3-6cc2e0af0d95",
@@ -56,7 +56,7 @@
         "volume": 750
     },
     {
-        "section": "vino",
+        "section": "vinos",
         "id": 202,
         "price": 123456,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vino-casillero-del-diablo.png?alt=media&token=398dcc9a-e9ab-4697-90b8-77133c09e34d",
@@ -64,7 +64,7 @@
         "volume": 750
     },
     {
-        "section": "vino",
+        "section": "vinos",
         "id": 203,
         "price": 123456,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vino-frontera.png?alt=media&token=7f25584e-c99e-43df-b3c8-8fa74f36627c",
@@ -72,7 +72,7 @@
         "volume": 750
     },
     {
-        "section": "vino",
+        "section": "vinos",
         "id": 204,
         "price": 123456,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vino-moscato.png?alt=media&token=d675441e-7c92-43b1-9502-30b637306182",
@@ -80,7 +80,7 @@
         "volume": 1000
     },
     {
-        "section": "vino",
+        "section": "vinos",
         "id": 205,
         "price": 123456,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vino-sanson.png?alt=media&token=97bd110b-73a1-47c7-89cf-9dbafb6089c8",
@@ -88,7 +88,7 @@
         "volume": 750
     },
     {
-        "section": "vino",
+        "section": "vinos",
         "id": 206,
         "price": 123456,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vino-tanino.png?alt=media&token=9964ba50-0ef2-4b10-a68b-9db262bc7983",

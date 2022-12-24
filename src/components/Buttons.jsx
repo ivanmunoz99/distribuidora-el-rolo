@@ -3,15 +3,15 @@ import React from "react"
 import { useState } from "react"
 
 
-export function ButtonScroll (){
+export function ButtonScroll (props){
     return(
         <div className={styleButtons.sections}>
-            <button>Aguardiente</button>
-            <button>Vinos</button>
-            <button>Ron</button>
-            <button>Vodka</button>
-            <button>Wisky</button>
-            <button>Sin Alcohol</button>
+            <button onClick={e => {props.fun(e.target.innerHTML.toLowerCase())}}>Aguardiente</button>
+            <button onClick={e => {props.fun(e.target.innerHTML.toLowerCase())}}>Vinos</button>
+            <button onClick={e => {props.fun(e.target.innerHTML.toLowerCase())}}>Ron</button>
+            <button onClick={e => {props.fun(e.target.innerHTML.toLowerCase())}}>Vodka</button>
+            <button onClick={e => {props.fun(e.target.innerHTML.toLowerCase())}}>Wisky</button>
+            <button onClick={e => {props.fun(e.target.innerHTML.toLowerCase())}}>Sin Alcohol</button>
         </div>
     )
 }
