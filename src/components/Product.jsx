@@ -9,6 +9,7 @@ export function Product ({category}){
         //console.log(info)
         allProducts.push(info);
         console.log(allProducts)
+        localStorage.setItem("list", JSON.stringify(allProducts))
     }
 
     const filterProduct = infoProducts.filter(item => item.section === category);

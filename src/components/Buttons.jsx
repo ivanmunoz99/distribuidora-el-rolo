@@ -1,6 +1,6 @@
 import styleButtons from "./Buttons.module.css"
 import React from "react"
-import { useState } from "react"
+//import { useState } from "react"
 
 
 export function ButtonScroll (props){
@@ -16,14 +16,20 @@ export function ButtonScroll (props){
     )
 }
 
-export function ButtonOperation(){
+/* export function ButtonOperation({id}){
 
     const [count, setCount] = useState(0)
     console.log(count)
+    let json = JSON.parse(localStorage.getItem("list"))
     return(
         <>
-            <button onClick={() => setCount(count - 1)}>-</button>
+            <button onClick={() => {setCount(JSON.parse(localStorage.getItem("list")))
+            json.forEach(element => {
+                if (element.id === id){
+                    element.cantidad -- 
+                }
+            });}}>-</button>
             <button onClick={() => setCount(count + 1)}>+</button>
         </>
     )
-}
+} */

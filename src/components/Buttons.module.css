@@ -9,6 +9,7 @@
     margin-top: 15%;
     margin: auto;
     overflow-y: hidden;
+    margin-bottom: 10%;
 }
 .sections::-webkit-scrollbar{
     height: 5px;

@@ -1,16 +1,18 @@
 import styleCart from "./CarShop.module.css"
+import { useState } from "react"
 
-export function CartShop(){
+export function CartShop({ lista }) {
 
+    let json = JSON.parse(localStorage.getItem("list"))
+    const [count, setCount] = useState(lista.cuantity)
 
-    return(<>
-        <h1>CARRITO</h1>
+    return (<>
         <div className={styleCart.product}>
             <div className={styleCart.img}>
-                <img 
-                width={150}
-                height={172}
-                src="" alt="" />
+                <img
+                    width={150}
+                    height={172}
+                    src={lista.poster} alt={lista.title} />
             </div>
             <div className={styleCart.description}>
                 <div className={styleCart.details}>
@@ -19,38 +21,41 @@ export function CartShop(){
                 </div>
                 <hr />
                 <div className={styleCart.details}>
-                    <p>Cantidad:</p>
+                    <p>cuantity:</p>
                     <div className={styleCart.count}>
-                        <button>-</button>
-                        <p>0</p>
-                        <button>+</button>
+                        <button onClick={() => {
+                            lista.cuantity--
+                            setCount(count-1)
+                            json.forEach(element => {
+                                if (element.id === lista.id) {
+                                    element.cuantity= lista.cuantity
+                                }
+                            });
+                            console.log(json)
+                            localStorage.setItem("list", JSON.stringify(json))
+                        }}>-</button>
+                        <p>{lista.cuantity}</p>
+                        <button onClick={() => {
+                            lista.cuantity++
+                            setCount(count+1)
+                            json.forEach(element => {
+                                if (element.id === lista.id) {
+                                    element.cuantity= lista.cuantity
+                                }
+                            });
+                            console.log(json)
+                            localStorage.setItem("list", JSON.stringify(json))
+                        }}>+</button>
                     </div>
                 </div>
                 <hr />
                 <div className={styleCart.details}>
                     <p>Precio:</p>
-                    <p>$</p>
+                    <p>$ {lista.price} c/u</p>
                 </div>
             </div>
         </div>
-        <div className={styleCart.finish}>
-            <div className={styleCart.total}><h2>TOTAL</h2></div>
-            <div className={styleCart.details}>
-                <p>Subtotal</p>
-                <p>$</p>
-            </div>
-            <hr />
-            <div className={styleCart.details}>
-                <p>Envio:</p>
-                <p>$</p>
-            </div>
-            <hr />
-            <div className={styleCart.details}>
-                <p>Total:</p>
-                <p>$</p>
-            </div>
-            <button>Finalizar Compra</button>
-        </div>
+
     </>
     )
 }

@@ -6,6 +6,7 @@ const Layout = () =>{
             <Link to="/"></Link>
             <Link to="/products"></Link>
             <Link to="/cart"></Link>
+            
             <Outlet />
         </>
     )

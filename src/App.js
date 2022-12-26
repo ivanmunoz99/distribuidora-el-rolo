@@ -6,6 +6,7 @@ import Products from './pages/products';
 import NoFound  from './pages/NoFound';
 import Layout from './pages/Layout';
 import Main from './pages/Main';
+import Finish from './pages/finish';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element={<Layout />}>
           <Route path='products' element={<Products />} />
           <Route path='cart' element={<Cart />} />
+          <Route path='finish' element={<Finish />} />
           <Route path='*' element={<NoFound />} />
           <Route path='/' element={<Main />} />
         </Route>

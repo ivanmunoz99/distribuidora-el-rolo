@@ -3,3 +3,7 @@
     box-sizing: border-box;
     font-family: 'roboto';
 }
+
+h1{
+    text-align: center;
+}
