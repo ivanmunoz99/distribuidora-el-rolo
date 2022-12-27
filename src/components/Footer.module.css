@@ -22,3 +22,45 @@ footer{
 p{
     font-size: 11px;
 }
+@media (min-width: 768px){
+    footer{
+        height: 50px;
+        padding-top: 2%;
+    }
+    .instagram{
+        width: auto;
+        height: 22px;
+    }
+    .nequi{
+        width: auto;
+        height: 22px;
+    }
+    .davi{
+        width: auto;
+        height: 22px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+@media (min-width: 1200px){
+    footer{
+        height: 70px;
+        padding-top: 2%;
+    }
+    .instagram{
+        width: auto;
+        height: 30px;
+    }
+    .nequi{
+        width: auto;
+        height: 30px;
+    }
+    .davi{
+        width: auto;
+        height: 30px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
