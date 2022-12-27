@@ -21,7 +21,7 @@ export function CartShop({ lista }) {
                 </div>
                 <hr />
                 <div className={styleCart.details}>
-                    <p>cuantity:</p>
+                    <p>Cantidad:</p>
                     <div className={styleCart.count}>
                         <button onClick={() => {
                             lista.cuantity--
