@@ -123,6 +123,7 @@
 @media (min-width:1200px){
     .container{
         height: 950px;
+        margin-top: 3%;
     }
     .welcome{
         height: 70px;
