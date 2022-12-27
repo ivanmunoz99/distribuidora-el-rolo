@@ -1,7 +1,7 @@
 .link{
     font-size: 40px;
     font-weight: 600;
-    margin: 34%;
+    margin: 30%;
     color: #F28D35;
     overflow-x: hidden !important;
 }
@@ -19,20 +19,20 @@
     .link{
         font-size: 46px;
         font-weight: 600;
-        margin: 39%;
+        margin: 38%;
     }
 }
 @media (min-width: 1024px){
     .link{
         font-size: 46px;
         font-weight: 600;
-        margin: 42%;
+        margin: 41%;
     }
 }
 @media (min-width: 1200px){
     .link{
         font-size: 46px;
         font-weight: 600;
-        margin: 43%;
+        margin: 42%;
     }
 }
