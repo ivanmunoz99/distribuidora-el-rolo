@@ -71,7 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Componentes
 En los componentes se encuentra la estructuras de la pagina siendo cada una de ellas la parte funcional y dinamica. Cada componente renderiza una parte de la pagina dependiendo lo que el usuario interactue.
-- El componente 'home' renderiza la bienvenida de la pagina, es el primer vistaso cuando se igresa a esta.
+- El componente 'home' renderiza la bienvenida de la pagina, es el primer vistaso cuando se ingresa a esta.
 - El componente 'Product' renderiza las cartas con su información de los productos.
 - El componente 'Header' renderiza el logo y el carrito de compras de la pagina.
 - El componente 'Buttons' renderiza los botones de navegación o cambio de sección de los productos.
@@ -86,7 +86,7 @@ Respectivamente cada componente tiene su hoja de estilos
 Para lograr la navegación se creo la carpeta 'pages' el cual cada una de ellas permite el cambio de pagina para poder renderizar los componentes. Por defecto se establecio como pagina principal el componente que renderiza la bienvenida.
 La navegación se establecio como:
 - / => por defecto
-- /producta => principal 
+- /products => principal 
 - /cart => carrito
 - /finish => finalización vinculación whatsapp
 
