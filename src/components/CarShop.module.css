@@ -46,6 +46,15 @@ hr {
     font-size: 16px;
 }
 
+.details p{
+    font-size: 16px;
+}
+.finish img{
+    width: 250px;
+    height: auto;
+    margin-top: 20%;
+}
+
 /* css final step */
 .finish {
     width: 245px;
@@ -99,12 +108,17 @@ hr {
     .product p {
         font-size: 20px;
     }
+    .finish img{
+        width: 300px;
+        height: auto;
+        margin-top: 20%;
+    }
 
     /* css final step */
     .finish {
         width: 350px;
         height: 420px;
-        margin-top: 15%;
+        margin-top: 7%;
         font-size: 20px;
     }
 
@@ -140,12 +154,17 @@ hr {
     hr {
         width: 400px;
     }
+    .finish img{
+        width: 400px;
+        height: auto;
+        margin-top: 20%;
+    }
 
     /* css final step */
     .finish {
         width: 500px;
         height: 550px;
-        margin-top: 15%;
+        margin-top: 5%;
         font-size: 24px;
     }
 
