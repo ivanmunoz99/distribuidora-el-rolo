@@ -19,7 +19,8 @@ const Home = () => {
             <button onClick={handleClick}>COMPRAR!</button>
         </div>
         <div className={styleHome.warning}>
-            <img className={styleHome.img} src="https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/Instagram_logo.svg.png?alt=media&token=beca55ad-87f8-45f5-9083-f6a524a321d0" alt="red social" />
+            <a href="https://www.instagram.com/distribuidora_elrolo/?igshid=N2ZiY2E3YmU%3D"><img className={styleHome.img} src="https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/Instagram_logo.svg.png?alt=media&token=beca55ad-87f8-45f5-9083-f6a524a321d0" alt="red social" /></a>
+            
             <p>Ventas exclusivamente para mayores de edad.</p>
         </div>
         </>

@@ -2,7 +2,7 @@
     {
         "section": "aguardiente",
         "id": 101,
-        "price": 12000,
+        "price": 55000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/aguardiente-amarillo.png?alt=media&token=ed91b204-952a-4ce7-84c0-82e19ee7de82",
         "title": "Amarillo",
         "cuantity": 1,
@@ -20,7 +20,7 @@
     {
         "section": "aguardiente",
         "id": 103,
-        "price": 123456,
+        "price": "por encargo",
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/aguardiente-llanero.png?alt=media&token=e87ae8d3-8fa4-46d9-b867-4534f83604bb",
         "title": "Llanero",
         "cuantity": 1,
@@ -29,7 +29,7 @@
     {
         "section": "aguardiente",
         "id": 104,
-        "price": 123456,
+        "price": 35000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/aguardiente-nectar.png?alt=media&token=8f109f49-8e75-492c-ba88-35694eec4663",
         "title": "Nectar",
         "cuantity": 1,
@@ -38,7 +38,7 @@
     {
         "section": "aguardiente",
         "id": 105,
-        "price": 123456,
+        "price": 22000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/aguardiente-nectar-m.png?alt=media&token=a436061e-8a04-455e-9d56-433e9517cf2b",
         "title": "Nectar Media",
         "cuantity": 1,
@@ -47,7 +47,7 @@
     {
         "section": "aguardiente",
         "id": 106,
-        "price": 123456,
+        "price": "Por encargo",
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/aguardiente-tapaRoja.png?alt=media&token=e14d05fa-002f-4afd-8aa8-edb5a5af9a96",
         "title": "Tapa Roja",
         "cuantity": 1,
@@ -92,7 +92,7 @@
     {
         "section": "vinos",
         "id": 205,
-        "price": 123456,
+        "price": 22000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vino-sanson.png?alt=media&token=97bd110b-73a1-47c7-89cf-9dbafb6089c8",
         "title": "Sanson",
         "cuantity": 1,
@@ -110,7 +110,7 @@
     {
         "section": "ron",
         "id": 301,
-        "price": 123456,
+        "price": 45000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/ron-bacardi.png?alt=media&token=1d243e89-6698-46e4-bec5-5fb7189c4d31",
         "title": "Bacardí",
         "cuantity": 1,
@@ -119,7 +119,7 @@
     {
         "section": "ron",
         "id": 302,
-        "price": 123456,
+        "price": 45000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/ron-caldas.png?alt=media&token=c39ada40-4513-4e5d-8a7b-8fa0efa91f16",
         "title": "Viejo de Caldas",
         "cuantity": 1,
@@ -137,7 +137,7 @@
     {
         "section": "ron",
         "id": 304,
-        "price": 123456,
+        "price": 53000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/ron-santafe.png?alt=media&token=52e20ed4-097c-4759-bd17-66e0bd2e01e0",
         "title": "Santa Fe",
         "cuantity": 1,
@@ -155,7 +155,7 @@
     {
         "section": "ron",
         "id": 306,
-        "price": 123456,
+        "price": 48000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/ron-medellin.png?alt=media&token=633ec808-ec99-45da-9a6c-1599a9b2c783",
         "title": "Medellin",
         "cuantity": 1,
@@ -191,7 +191,7 @@
     {
         "section": "vodka",
         "id": 404,
-        "price": 123456,
+        "price": 45000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/vodka-smirnoff.png?alt=media&token=c4962b8f-fce3-4bcc-962a-025dbb94bb0a",
         "title": "Smirnof",
         "cuantity": 1,
@@ -218,7 +218,7 @@
     {
         "section": "wisky",
         "id": 501,
-        "price": 123456,
+        "price": 55000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/wisky-black-y-white.png?alt=media&token=bc96faee-f77a-43c1-a941-14568501dda9",
         "title": "Black & White",
         "cuantity": 1,
@@ -227,7 +227,7 @@
     {
         "section": "wisky",
         "id": 502,
-        "price": 123456,
+        "price": 165000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/wisky-buchanan's.png?alt=media&token=da305f7b-dd70-4c61-b940-1d631b98d7eb",
         "title": "Buchanan's",
         "cuantity": 1,
@@ -245,7 +245,7 @@
     {
         "section": "wisky",
         "id": 504,
-        "price": 123456,
+        "price": 150000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/wisky-oldParr.png?alt=media&token=eb8ee8a2-e554-4e9f-ac5c-70573dbc76c2",
         "title": "Old Parr",
         "cuantity": 1,
@@ -254,7 +254,7 @@
     {
         "section": "wisky",
         "id": 505,
-        "price": 123456,
+        "price": 75000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/wisky-red-label.png?alt=media&token=b6d415ec-71a8-4c0e-b986-bbc696ab0d06",
         "title": "Red Label",
         "cuantity": 1,
@@ -263,7 +263,7 @@
     {
         "section": "wisky",
         "id": 506,
-        "price": 123456,
+        "price": 65000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/wisky-something-special.png?alt=media&token=349b20e2-10f8-491d-afa3-cc0a6103e569",
         "title": "Something Special",
         "cuantity": 1,
@@ -272,7 +272,7 @@
     {
         "section": "sin alcohol",
         "id": 601,
-        "price": 123456,
+        "price": 1800,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/sin-agua-cristal.png?alt=media&token=cfe05940-38fb-49f2-abbd-400de556edcc",
         "title": "Agua Cristal",
         "cuantity": 1,
@@ -281,7 +281,7 @@
     {
         "section": "sin alcohol",
         "id": 602,
-        "price": 123456,
+        "price": 1500,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/sin-manantial.png?alt=media&token=b7755010-279f-4c3b-8c46-6feaeea3a547",
         "title": "Agua Manantial",
         "cuantity": 1,
@@ -290,7 +290,7 @@
     {
         "section": "sin alcohol",
         "id": 603,
-        "price": 123456,
+        "price": 3000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/sin-gatorade.png?alt=media&token=497384ce-1dc8-4728-95ef-e2e02f6444ce",
         "title": "Gatorade",
         "cuantity": 1,
@@ -299,7 +299,7 @@
     {
         "section": "sin alcohol",
         "id": 604,
-        "price": 123456,
+        "price": 8000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/sin-monster.png?alt=media&token=eb487d79-d62a-434a-8f80-4f43c532589d",
         "title": "Monster",
         "cuantity": 1,
@@ -308,7 +308,7 @@
     {
         "section": "sin alcohol",
         "id": 605,
-        "price": 123456,
+        "price": 2000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/sin-powerade.png?alt=media&token=61336b46-f3ab-45fc-8917-06a0bcc81eee",
         "title": "Powerade",
         "cuantity": 1,
@@ -317,7 +317,7 @@
     {
         "section": "sin alcohol",
         "id": 606,
-        "price": 123456,
+        "price": 6000,
         "poster": "https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/sin-red-bull.png?alt=media&token=cdf5c176-94d6-49ce-8f6c-5d6637616321",
         "title": "Red Bull",
         "cuantity": 1,

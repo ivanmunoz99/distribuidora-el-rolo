@@ -1,7 +1,7 @@
 
 .container{
     width: 80vw;
-    height: 499px;
+    height: 540px;
     background-color: #F2F2F2;
     text-align: center;
     margin: auto;
@@ -9,9 +9,10 @@
 }
 
 .welcome{
+    height: 40px;
     background-color: #F28D35;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 26px;
     text-align: center;
 }
 .container .logo{
@@ -22,7 +23,7 @@
 }
 
 .container .text{
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     padding: 5%;
 }
@@ -34,16 +35,11 @@
 .container button{
     width: 149px;
     height: 40px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
     margin-top: 10%;
 }
 
-.container .img{
-    width: 200px;
-    text-align: center;
-    
-}
 .warning {
     width: 80vw;
     margin: auto;
@@ -54,4 +50,96 @@
     width: 100px;
     height: auto;
     margin-top: 5%;
+}
+
+@media (min-width: 768px){
+    .container{
+        height: 950px;
+    }
+    .welcome{
+        height: 60px;
+        font-weight: 500;
+        padding: 2%;
+        font-size: 32px;
+    }
+    .container .logo{
+        width: 450px;
+        height: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .container .text{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .container button{
+        width: 200px;
+        height: 50px;
+        font-size: 28px;
+        font-weight: 400;
+        margin-top: 10%;
+    }
+    .warning img{
+        width: 150px;
+        height: auto;
+        margin-top: 2%;
+    }
+    .warning p{
+        font-size: 20px;
+    }
+}
+@media (min-width: 1024px){
+    .container{
+        height: 910px;
+    }
+    .welcome{
+        height: 60px;
+        font-weight: 500;
+        padding: 2%;
+        font-size: 32px;
+    }
+    .container .logo{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .container .text{
+        font-size: 28px;
+    }
+    .container button{
+        width: 220px;
+        height: 50px;
+        font-size: 30px;
+        margin-top: 5%;
+    }
+    .warning img{
+        width: 150px;
+        height: auto;
+        margin-top: 2%;
+    }
+    .warning p{
+        font-size: 20px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        height: 950px;
+    }
+    .welcome{
+        height: 70px;
+        font-size: 36px;
+        padding: 1%;
+    }
+    .container button{
+        width: 250px;
+        height: 60px;
+        font-size: 34px;
+        margin-top: 2%;
+    }
+    .warning img{
+        width: 160px;
+        height: auto;
+    }
+    .warning p{
+        font-size: 22px;
+    }
 }

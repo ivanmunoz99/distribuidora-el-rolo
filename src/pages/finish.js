@@ -5,8 +5,8 @@ import styleCart from "../components/CarShop.module.css"
 const Finish = () =>{
     const addList = JSON.parse(localStorage.getItem("list"))
 
-    console.log(addList.map(item => `${item.title} ${item.price} ${item.volume + "ml"} ${item.cuantity}`))
-    const description = addList.map(item => `${item.title} ${item.price} ${item.volume + "ml"} ${item.cuantity}`)
+    //console.log(addList.map(item => `${item.title} ${item.price} ${item.volume + "ml"} ${item.cuantity}`))
+    const description = addList.map(item => `${'Producto: ' + item.section} ${item.title} ${item.volume + "ml"} ${'Cantidad:' + item.cuantity }`)
 
     const subTotal =  addList.reduce((total, item) => 
     {if (item.cuantity > 1) return total + item.price * item.cuantity
@@ -28,7 +28,7 @@ const Finish = () =>{
                     <p>Total:</p>
                     <p>$ {subTotal + 6000} </p>
                 </div>
-                <button onClick={() => window.open(`https://api.whatsapp.com/send/?phone=573043506199&text=${subTotal + 6000} ${description}`,"_blank")}>Finalizar Compra</button>
+                <button onClick={() => window.open(`https://api.whatsapp.com/send/?phone=573043506199&text=${description} ${'Valor total:'} ${ subTotal + 6000}`,"_blank")}>Finalizar Compra</button>
             </div>
     )
 }
