@@ -25,7 +25,7 @@ p{
 @media (min-width: 768px){
     footer{
         height: 50px;
-        padding-top: 2%;
+        padding: 2%;
     }
     .instagram{
         width: auto;
@@ -46,7 +46,6 @@ p{
 @media (min-width: 1200px){
     footer{
         height: 70px;
-        padding-top: 2%;
     }
     .instagram{
         width: auto;
