@@ -2,8 +2,9 @@ import styleCart from "./CarShop.module.css"
 import { useState } from "react"
 
 export function CartShop({ lista }) {
-
+    //callback to JSON
     let json = JSON.parse(localStorage.getItem("list"))
+    //update cantity
     const [count, setCount] = useState(lista.cuantity)
 
     return (<>

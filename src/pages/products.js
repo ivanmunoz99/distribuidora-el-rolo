@@ -5,6 +5,7 @@ import { ButtonScroll } from "../components/Buttons";
 import { useState } from "react";
 
 const Products =() =>{
+    //category predetermined
     const [category, setcategory] = useState("aguardiente")
     //console.log(category)
     return(

@@ -3,11 +3,13 @@ import styleCart from "../components/CarShop.module.css"
 
 
 const Finish = () => {
+    //save the JSON in one variable
     const addList = JSON.parse(localStorage.getItem("list"))
 
     //console.log(addList.map(item => `${item.title} ${item.price} ${item.volume + "ml"} ${item.cuantity}`))
     const description = addList.map(item => `${'Producto: ' + item.section} ${item.title} ${item.volume + "ml"} ${'Cantidad:' + item.cuantity}`)
-
+    
+    // reduce() is returning a single value as a result
     const subTotal = addList.reduce((total, item) => {
         if (item.cuantity > 1) return total + item.price * item.cuantity
         return total + item.price

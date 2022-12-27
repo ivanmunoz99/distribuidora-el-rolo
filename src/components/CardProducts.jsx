@@ -1,7 +1,7 @@
 import styleCard from "./CardProducts.module.css"
 
 export function CardProducts({ info,  handleClick }) {
-
+    //render the cards
     return (
         <>
             <li className={styleCard.cards}>

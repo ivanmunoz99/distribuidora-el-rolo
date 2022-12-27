@@ -3,7 +3,7 @@ import styleHome from "./Home.module.css"
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
-
+    //navigation
     const history = useNavigate();
     const handleClick = () => history('/products');
 

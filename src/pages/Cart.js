@@ -5,6 +5,7 @@ import { Link} from "react-router-dom"
 import "./Cart.css"
 
 const Cart = () => {
+    //map the localStorage for callback in the card
     const addList = JSON.parse(localStorage.getItem("list"))
     console.log(addList.map(item => `${item.title} ${item.price} ${item.volume + "ml"}`))
     console.log(addList.reduce((total, item) => total + item.price))

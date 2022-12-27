@@ -3,6 +3,7 @@ import styleHeader from "./Header.module.css"
 import { useNavigate } from 'react-router-dom';
 
 const Header = () =>{
+    //navigation between cart and products
     const history = useNavigate();
     const handleClick = () => history('/cart');
     const first = useNavigate();

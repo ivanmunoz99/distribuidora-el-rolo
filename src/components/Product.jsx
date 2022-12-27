@@ -4,6 +4,7 @@ import styleCard from "./Product.module.css"
 import { useState } from "react";
 
 export function Product ({category}){
+    //hook for update the products in the button 'agregar'
     const [allProducts, setallProducts] = useState([]);
     const handleClick = (info) =>{
         //console.log(info)
@@ -13,7 +14,7 @@ export function Product ({category}){
     }
 
     const filterProduct = infoProducts.filter(item => item.section === category);
-    return(
+    return(//render the component 'CardProducts'
         <section>
             
             <ul className={styleCard.cardsGrid}>
