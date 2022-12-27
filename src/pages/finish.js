@@ -29,7 +29,7 @@ const Finish = () => {
                 <p><strong>Total:</strong></p>
                 <p><strong>$ {subTotal + 6000}</strong></p>
             </div>
-            <button onClick={() => window.open(`https://api.whatsapp.com/send/?phone=573043506199&text=${description} ${'Valor total:'} ${subTotal + 6000}`, "_blank")}>Finalizar Compra</button>
+            <button onClick={() => window.open(`https://api.whatsapp.com/send/?phone=573057150737&text= ¡hola! para un domicilio del siguiente ${description} ${'Valor total:'} ${subTotal + 6000}`, "_blank")}>Finalizar Compra</button>
             <img src="https://firebasestorage.googleapis.com/v0/b/distribuidora-84a8f.appspot.com/o/logo.png?alt=media&token=4e40843f-5ca5-409b-9895-1f1d995ba64b" alt="Logo distribuidora el rolo"></img>
         </div>
     )
