@@ -15,18 +15,18 @@ const Finish = () =>{
         <div className={styleCart.finish}>
                 <div className={styleCart.total}><h2>TOTAL</h2></div>
                 <div className={styleCart.details}>
-                    <p>Subtotal </p>
+                    <p><strong>Subtotal:</strong></p>
                     <p>$ {subTotal}</p>
                 </div>
                 <hr />
                 <div className={styleCart.details}>
-                    <p>Envio:</p>
+                    <p><strong>Envio:</strong></p>
                     <p>$ 6000</p>
                 </div>
                 <hr />
                 <div className={styleCart.details}>
-                    <p>Total:</p>
-                    <p>$ {subTotal + 6000} </p>
+                    <p><strong>Total:</strong></p>
+                    <p><strong>$ {subTotal + 6000}</strong></p>
                 </div>
                 <button onClick={() => window.open(`https://api.whatsapp.com/send/?phone=573043506199&text=${description} ${'Valor total:'} ${ subTotal + 6000}`,"_blank")}>Finalizar Compra</button>
             </div>

@@ -1,60 +1,68 @@
-.product h1{
-    text-align: center;
-    margin-bottom: 10%;
-}
-
-.product{
+.product {
     width: 245px;
-    height: 392px;
+    height: 410px;
     box-sizing: border-box;
     border: 1px solid rgba(0, 0, 0, 0.25);
     margin: auto;
     margin-bottom: 20%;
 }
 
-.details{
+.details {
     display: flex;
     justify-content: space-between;
     padding: 10%;
 }
 
-.details button{
-    width: 20px;
-    height: auto;
+.details button {
+    width: 25px;
+    height: 25px;
 }
 
-.count{
+.count {
     display: flex;
     justify-content: space-around;
-    width: 70px;
-    height: 20px;
+    width: 80px;
+    height: 25px;
 }
 
-.img{
+.img {
     text-align: center;
+}
+
+.product img {
+    padding: 3%;
+    width: 150px;
+    height: 172px;
 }
 
 hr {
     width: 195px;
     margin-left: 10%;
+    margin: auto;
 }
 
-.finish{
+.product p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* css final step */
+.finish {
     width: 245px;
     height: 300px;
     box-sizing: border-box;
     border: 1px solid rgba(0, 0, 0, 0.25);
     margin: auto;
-    margin-bottom: 20%;
+    margin-top: 15%;
     text-align: center;
 }
 
-.total{
+.total {
     background-color: #F2A341;
     text-align: center;
 }
 
-.finish button{
+.finish button {
     width: 205px;
     height: 38px;
     text-decoration-line: underline;
@@ -62,11 +70,91 @@ hr {
     font-size: 22px;
 }
 
-.product p{
-    font-weight: 400;
-    font-size: 13px;
+@media (min-width:768px) {
+    .product {
+        width: 350px;
+        height: 500px;
+    }
+
+    hr {
+        width: 280px;
+        margin-left: 10%;
+    }
+
+    .details button {
+        width: 25px;
+        height: 25px;
+    }
+
+    .count {
+        width: 100px;
+        height: 30px;
+    }
+
+    .product img {
+        width: 200px;
+        height: auto;
+    }
+
+    .product p {
+        font-size: 20px;
+    }
+
+    /* css final step */
+    .finish {
+        width: 350px;
+        height: 420px;
+        margin-top: 15%;
+        font-size: 20px;
+    }
+
+    .finish button {
+        width: 235px;
+        height: 45px;
+    }
+    .details p{
+        font-size: 20px;
+    }
 }
-.finish p{
-    font-weight: 400;
-    font-size: 13px;
+@media (min-width:1200px) {
+    .product {
+        width: 500px;
+        height: 650px;
+    }
+
+    .details button {
+        width: 25px;
+        height: 25px;
+    }
+
+    .count {
+        width: 100px;
+        height: 30px;
+    }
+
+    .product img {
+        width: 270px;
+        height: auto;
+    }
+
+    hr {
+        width: 400px;
+    }
+
+    /* css final step */
+    .finish {
+        width: 500px;
+        height: 550px;
+        margin-top: 15%;
+        font-size: 24px;
+    }
+
+    .finish button {
+        width: 275px;
+        height: 55px;
+        font-size: 28px;
+    }
+    .details p{
+        font-size: 24px;
+    }
 }

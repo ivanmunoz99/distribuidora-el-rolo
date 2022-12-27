@@ -10,18 +10,18 @@ export function CartShop({ lista }) {
         <div className={styleCart.product}>
             <div className={styleCart.img}>
                 <img
-                    width={150}
+                    width={200}
                     height={172}
                     src={lista.poster} alt={lista.title} />
             </div>
             <div className={styleCart.description}>
                 <div className={styleCart.details}>
-                    <p>Producto: </p>
-                    <p>Lorem ipsum dolor sit</p>
+                    <p><strong>Producto:</strong></p>
+                    <p>{lista.title}</p>
                 </div>
                 <hr />
                 <div className={styleCart.details}>
-                    <p>Cantidad:</p>
+                    <p><strong>Cantidad:</strong></p>
                     <div className={styleCart.count}>
                         <button onClick={() => {
                             lista.cuantity--
@@ -50,7 +50,7 @@ export function CartShop({ lista }) {
                 </div>
                 <hr />
                 <div className={styleCart.details}>
-                    <p>Precio:</p>
+                    <p><strong>Precio:</strong></p>
                     <p>$ {lista.price} c/u</p>
                 </div>
             </div>
