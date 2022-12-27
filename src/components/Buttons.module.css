@@ -45,4 +45,15 @@
         height: 35px;
         font-size: 16px;
     }
+    @media (min-width:1200px){
+        .sections{
+            width: 750px;
+            margin-bottom: 3%;
+        }
+        .sections button{
+            min-width: 105px;
+            height: 40px;
+            font-size: 18px;
+        }
+    }
 }
