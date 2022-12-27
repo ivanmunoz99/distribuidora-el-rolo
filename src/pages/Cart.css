@@ -2,12 +2,11 @@
     font-size: 40px;
     font-weight: 600;
     margin: 34%;
-    text-decoration: none;
     color: #F28D35;
+    overflow-x: hidden !important;
 }
 .link:hover{
-    color: #c4722a;
-    text-decoration: underline;
+    text-decoration: underline #c4722a;
 }
 @media (min-width: 480px){
     .link{
