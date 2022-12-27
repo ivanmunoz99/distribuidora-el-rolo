@@ -1,0 +1,39 @@
+.link{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 34%;
+    text-decoration: none;
+    color: #F28D35;
+}
+.link:hover{
+    color: #c4722a;
+    text-decoration: underline;
+}
+@media (min-width: 480px){
+    .link{
+        font-size: 40px;
+        font-weight: 600;
+        margin: 34%;
+    }
+}
+@media (min-width: 768px){
+    .link{
+        font-size: 46px;
+        font-weight: 600;
+        margin: 39%;
+    }
+}
+@media (min-width: 1024px){
+    .link{
+        font-size: 46px;
+        font-weight: 600;
+        margin: 42%;
+    }
+}
+@media (min-width: 1200px){
+    .link{
+        font-size: 46px;
+        font-weight: 600;
+        margin: 43%;
+    }
+}

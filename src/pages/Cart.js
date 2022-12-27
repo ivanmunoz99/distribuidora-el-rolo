@@ -2,7 +2,7 @@ import { CartShop } from "../components/CarShop";
 import Footer from "../components/footer";
 import Header from "../components/Header";
 import { Link} from "react-router-dom"
-
+import "./Cart.css"
 
 const Cart = () => {
     const addList = JSON.parse(localStorage.getItem("list"))
@@ -11,11 +11,11 @@ const Cart = () => {
     
 
     return (
-        <div>
+        <div className="aqw">
             <Header />
             <h1>CARRITO</h1>
             {addList.map((item, index) => <CartShop lista={item} key={index}/>)}
-                <Link to="/finish">finalizar </Link>
+                <Link to="/finish" className="link">finalizar </Link>
             <Footer />
         </div>
     )
