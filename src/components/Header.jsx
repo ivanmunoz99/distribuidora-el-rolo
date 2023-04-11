@@ -6,6 +6,7 @@ const Header = () =>{
     //navigation between cart and products
     const history = useNavigate();
     const handleClick = () => history('/cart');
+    
     const first = useNavigate();
     const Click = () => first('/products');
     
